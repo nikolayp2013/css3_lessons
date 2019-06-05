@@ -1,7 +1,42 @@
-body {
+/* Применения стиля к абсолютно всему документу */
+/* * {
+	font-size: 20px;
+} */
+
+/* К тегу html можно обращаться для указания глобальных стилей */
+html {
 	background-color: #a4edbe;
 }
 
-h1 {color: red;}
+/* body {
+	background-color: #a4edbe;
+}
+ */
+/* h1 {color: red;} */
 
-h3 {color: blue}
+/* Обращение к идентификаторам идет через #  */
+#header {color: red;}
+
+#header_1 {color: green;}
+
+/* h3 {color: blue} */
+
+/* Обращение к классам идет через . (точку) */
+/* .style {color: yellow} */
+/* Если нужно подключить класс только для определенного тега, то перед точной указывается название тега */
+h3.style {color: yellow}
+
+p.style {background-color: blue}
+
+/* p i.style {background-color: blue} */
+
+/* Можно ссылаться на теги внутри других тегов */
+p i {
+	color: #ca5597;
+}
+
+/* Можно делать группировку разных стилей */
+p.example, b {
+	font-size: 30px;
+	font-weight: bold; /* font-weight: bold - делает шрифт жирным */
+}
