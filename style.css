@@ -9,6 +9,11 @@
 /* К тегу html можно обращаться для указания глобальных стилей */
 html {
 	background-color: #a4edbe;
+	/* background-image: url('fon.png'); */
+	/* background-repeat: */
+	/* background: url('fon.png') no-repeat #ddeea5 center top; */
+	/* background: url('fon.png') repeat-x #ddeea5 center top; */
+	background: url('fon.png') repeat-y #ddeea5 left top;
 }
 
 /* body {
