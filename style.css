@@ -1,3 +1,6 @@
+* {
+	text-decoration: none;
+}
 /* Применения стиля к абсолютно всему документу */
 /* * {
 	font-size: 20px;
@@ -36,7 +39,38 @@ p i {
 }
 
 /* Можно делать группировку разных стилей */
-p.example, b {
+/* p.example, b {
 	font-size: 30px;
-	font-weight: bold; /* font-weight: bold - делает шрифт жирным */
+	font-weight: bold; font-weight: bold - делает шрифт жирным
+} */
+
+/* Псевдокласс и псевдоэлементы ЧЕРЕЗ : задают стили для конкретного собылия*/
+/* p#example:first-letter ПСЕВДОЭЛЕМЕНТ стили буду применяться к первой букве */
+p#example:first-letter {
+	color: red;
+}
+
+/* p#example:first-line первое предожение */
+p#example:first-line {
+	color: #e7943b;
+}
+
+/* Псевдоклассы для ссылки */
+.href {
+	color: #5f1a1a;
+	/* text-decoration: none; */
+}
+
+/* hover - псевдокласс, когда меняет цвет ссылки при наведении*/
+.href:hover {
+	color: #1d5e19;
+	/* text-decoration: none; */
+}
+
+p:hover {background-color: red}
+p:active {background-color: green}
+
+/* visited - псевдокласс для ссылок, когда меняет цвет ссылки если пользователь переходил по ссылке*/
+.href:visited {
+	color: #e32c8a;
 }
