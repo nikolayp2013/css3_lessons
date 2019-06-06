@@ -116,3 +116,15 @@ p {
 	line-height: 220%;
 	
 }
+
+#testBlock {
+	/* border: 2px solid silver; */
+	border: 2px dashed silver;
+	/* border: 2px dotted silver; */
+	height: 200px;
+	width: 500px;
+	background-color: #f7f7f7;
+	margin: 10px; /* Внешние отступы */
+	padding: 10px; /* Внутрениие отступы */
+	border-radius: 50px;
+}
