@@ -117,14 +117,40 @@ p {
 	
 }
 
-#testBlock {
-	/* border: 2px solid silver; */
+/* #testBlock {
+	/* border: 2px solid silver; 
 	border: 2px dashed silver;
-	/* border: 2px dotted silver; */
+	/* border: 2px dotted silver; 
 	height: 200px;
 	width: 500px;
 	background-color: #f7f7f7;
-	margin: 10px; /* Внешние отступы */
-	padding: 10px; /* Внутрениие отступы */
+	margin: 10px;  /* Внешние отступы 
+	padding: 10px;  /* Внутрениие отступы 
 	border-radius: 50px;
+} */
+
+#testBlock {
+	/* border: 2px solid silver; */
+	/* border: 2px double silver; двойня линия*/
+	/* border: 2px groove silver; */
+	/* border: 2px ridge silver; бордер впуклый*/
+	/* border: 2px dotted silver; бордер выпуклый*/
+	/* border: 2px inset silver; /* блок вдавленный */	
+	/* border: 2px outset silver; /* блок выпуклый */
+	border: 2px dotted silver;	
+	border-bottom: 2px dashed red;
+	height: 200px;
+	width: 500px;
+	background-color: #f7f7f7;
+	/*margin: 10px; /* Внешние отступы */
+	margin: 19px 33px 16px 60px; 
+	margin-top: 100px;
+	padding: 10px; /* Внутрениие отступы */
+	border-radius: 15px;
 }
+
+/* .borders {
+		width: 0; height: 0;
+		border: 100px solid;
+		border-color: #FF5B45 #1D532A #6DCDF7 #FFE02E;
+} */
