@@ -1,7 +1,7 @@
 # css3_lessons
 CSS3 для начинающих <br />
-Текущий изученный урок:13 <br />
-https://itproger.com/course/css/13 <br />
+Текущий изученный урок:15 <br />
+https://itproger.com/course/css/15 <br />
 
 Урок1:	 Создание стилей на сайте <br />
 Урок2:   Что такое CSS? В чем его преимущества? <br />

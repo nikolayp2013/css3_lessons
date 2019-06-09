@@ -217,6 +217,7 @@ aside {
 	left: 100px; */
 }
 
+/* материал 12 урока: Специальные стили для списков CSS */
 /* aside ul {
 	/* width: 80%; 
 	/* margin-left: 10%; 
@@ -231,6 +232,7 @@ aside ol {
 	list-style-type: lower-alpha;
 	list-style-image: url();
 }
+/* материал 12 урока: Специальные стили для списков CSS */
 
 footer {
 	width: calc(100% - 20px);

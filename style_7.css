@@ -1,0 +1,49 @@
+* {
+	text-decoration: none;
+}
+/* Применения стиля к абсолютно всему документу */
+/* * {
+	font-size: 20px;
+} */
+
+/* К тегу html можно обращаться для указания глобальных стилей */
+html {
+	background-color: #a4edbe;
+}
+
+#textStyles:hover {
+	background-color: #ddeea5;
+}
+
+/* text-indent - это абзацный отступ. Каждая первая строка будет отступать за задонный интервал */
+p {
+	text-indent: 1.1em;
+}
+
+#textStyles {
+	/* font-size: 16px; */
+	/* font-size: 100%; */
+	font-size: 1.1em;
+	/* font-weight: bold; */
+	font-weight: normal;
+	/* font-family - семейство шрифтов */
+	/* font-family: fantasy; */
+	/* font-family: Comic Sans MS; */
+	/* Можно указать несколько шрифтов через запятую, на случай если на машине пользователя не будет первого шрифта */
+	/* sans-serif - будет автоматически подбираться шрифт из того что есть, максимально похожий на исходный */
+	font-family: Comic Sans MS, sans-serif;
+	/* text-decoration:  */
+	/* text-align: right; */
+	/* text-align: justify; */ /* текст выравнивается по ширине */
+	text-align: left;
+	/* text-transform - меняет буквы на заглавные и наоборот */
+	/* text-transform: capitalize; */ /* capitalize - каждая первая буква в словах абзаца будет с заглавной буквы */
+	/* text-transform: uppercase; */
+	/* text-transform: lowercase; */
+	text-transform: none;
+	/* word-spacing: 10px; */
+	letter-spacing: 10px;
+	/* line-height - интервал между строками */
+	line-height: 220%;
+	
+}
